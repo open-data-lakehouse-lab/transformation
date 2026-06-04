@@ -1,0 +1,4 @@
+dataset_id: meteocat-weather
+resource: stations-metadata
+input_path: ./examples/landing/meteocat/stations-metadata.json
+output_dir: ./data

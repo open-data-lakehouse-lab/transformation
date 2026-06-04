@@ -1,0 +1,6 @@
+{
+    "variables": [
+        {"codi": "32", "nom": "Temperatura"},
+        {"codi": "33", "nom": "Humitat relativa"}
+    ]
+}
