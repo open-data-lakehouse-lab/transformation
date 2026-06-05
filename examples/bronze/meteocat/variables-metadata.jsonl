@@ -1,0 +1,2 @@
+{"dataset_id": "meteocat-weather", "source": "meteocat", "resource": "variables-metadata", "record_type": "variable_metadata", "payload": {"codi": "32", "nom": "Temperatura"}, "ingestion_metadata": {}, "processing_metadata": {}}
+{"dataset_id": "meteocat-weather", "source": "meteocat", "resource": "variables-metadata", "record_type": "variable_metadata", "payload": {"id": "1", "name": "Pressió"}, "ingestion_metadata": {}, "processing_metadata": {}}

@@ -35,10 +35,18 @@ python3 -m pip install -e .
 ```bash
 odl-transformation version
 
+# Transform Landing to Bronze
 odl-transformation transform \
   --dataset meteocat-weather \
   --resource stations-metadata \
   --input-path ./examples/landing/meteocat/stations-metadata.json \
+  --output-dir ./data
+
+# Transform Bronze to Silver
+odl-transformation transform-silver \
+  --dataset meteocat-weather \
+  --resource stations-metadata \
+  --input-path ./examples/bronze/meteocat/stations-metadata.jsonl \
   --output-dir ./data
 ```
 

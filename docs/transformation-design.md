@@ -18,5 +18,5 @@ This document describes the design principles of the `transformation` repository
 
 As the project grows, we may introduce:
 - Silver and Gold layer transformations.
-- Support for more complex data formats (e.g., Parquet).
+- Evaluation of Parquet and other columnar formats for future Silver/Gold layers.
 - Integration with external metadata catalogs.
